@@ -1,0 +1,99 @@
+.topnav ul{
+    list-style: none;
+    border: 0;
+      font-family: inherit;
+      font-size: 100%;
+      font-style: inherit;
+      color: inherit;
+      font-weight: inherit;
+      margin: 0;
+      outline: 0;
+      padding: 0;
+      vertical-align: baseline;
+      margin-left: 170px;
+  }
+  
+  .topnav ul li
+  {
+    display: inline-block;
+    margin-left: 6px;
+    margin-bottom: 10px;
+  }
+  .topnav ul li a
+  {
+      border-radius: 0 0 5px 5px;
+      padding: 15px;
+      text-decoration-line: none;
+      color: white;
+      position: relative;
+      font-weight: 700;
+      font-size: 15px;
+      display: block;
+      overflow: hidden;
+      padding: 15px;
+      transition: all .2s;
+      background-color:  #343757;
+      margin-top:20px;
+  }
+  .topnav ul li a:hover{
+      color: #82e29b;
+      font-size: 150%;
+      border-bottom: 2px solid white;
+  }
+  .topnav ul li a.active{
+    background-color: dodgerblue;
+    color: white;
+  }
+  .logo {
+    float: left;
+    width: 100px;
+    position: absolute;
+    top: 8px;
+    left: 48px;
+}
+  .topnav nav {
+      margin-top: 20px;
+      margin-left: 288px;
+  }
+  .box
+  {
+      
+      width: 100%;
+      height: auto;
+      background: #282c49;
+      -webkit-box-shadow: 0 1px 3px rgba(32,33,36,0.1);
+      box-shadow: 0 1px 3px rgba(32,33,36,0.1);
+      top: 0;
+      right: 0;
+      left: 0;
+      margin-bottom: 30px;
+      clip-path: ellipse(100% 100% at 29% 0);
+  }
+.navbar-brand{
+    margin-bottom: 81px;
+}
+.fa
+{
+    color: white;
+}
+
+@media (max-width: 990px)
+{
+
+    .topnav ul
+    {
+        margin-left: 0px;
+    }
+    .topnav ul li a
+    {
+        text-align: center;
+    }
+    .box
+    {
+        clip-path: ellipse(120% 100% at 40% 0);
+    }
+    .logo
+    {
+        left: 8px;
+    }
+}

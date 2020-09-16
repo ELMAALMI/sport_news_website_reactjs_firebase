@@ -1,0 +1,33 @@
+body, html {
+  background: #ffffff;
+  padding: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  position: relative;
+  margin: 0;
+  margin-top: -10px;
+  -webkit-transition: opacity 400ms;
+  -moz-transition: opacity 400ms;
+  transition: opacity 400ms;
+  
+}
+
+.contant {
+  padding: 10px;
+  background: #fff;
+  box-shadow: 0 1px 2px rgba(151,151,151,0.58);
+  border-radius: 3px;
+}
+
+.title {
+  background-color: #282c49;
+  width: 100%;
+  height: 40px;
+  border-radius: 8px;
+  margin-top: 0;
+  color: white;
+  padding: 3px 31px 45px;
+}
+a:hover 
+{
+  text-decoration: none !important;
+}

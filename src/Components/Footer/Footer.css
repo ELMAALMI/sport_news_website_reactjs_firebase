@@ -1,0 +1,14 @@
+footer img{
+    width: 159px;
+}
+footer {
+    background: #282c49;
+    color: #fff;
+    border-top: 8px solid #82e29b;
+}
+
+
+footer i {
+    font-size: 51px !important;
+    color: white !important;
+}
