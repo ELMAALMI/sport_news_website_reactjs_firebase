@@ -7,6 +7,7 @@ import Home from './Page/Home/Home';
 import Footer from './Components/Footer/Footer';
 import Contact from './Page/Contact/Contact';
 import Loding from "./Components/Loading/Loading";
+import SingleBlog from "./Page/SingleBlog/SingleBlog";
 
 function App() 
 {
@@ -22,10 +23,11 @@ function App()
         return (
             <div className="App">
                 <Navbar />
-                <Switch>
-                    <Route exact path="/" component={Home}/>
-                    <Route exact path="/contact" component={Contact}/>
-                </Switch>
+                    <Switch>
+                        <Route exact path="/" component={Home}/>
+                        <Route exact path="/blog/:id" component={SingleBlog}/>
+                        <Route exact path="/contact" component={Contact}/>
+                    </Switch>
                 <Footer />
             </div>
         );

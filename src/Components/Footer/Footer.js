@@ -1,13 +1,14 @@
 import React from 'react'
 import Logo from '../../assets/logoo.png';
 import './Footer.css';
+import {Link} from "react-router-dom";
 function Footer() {
     return (
     <footer className="py-5 mt-3">
         <div className="container text-center">
-            <a href="https://componentity.com" target="_blank">
+            <Link to="/">
                 <img  src={Logo} alt="logo" />
-            </a>
+            </Link>
             <p className="text-secondary col-md-9 mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum ducimus soluta veritatis sunt est veniam, rem neque impedit rerum aliquid iste  dolores laboriosam?</p>
             <hr className="my-5" />
             <div className="mb-3">

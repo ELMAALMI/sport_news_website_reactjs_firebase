@@ -7,7 +7,7 @@ import Chanelle from '../../Components/Chanelle/Chanelle';
 import firebase from "../../Firebase/Firebaseconfig";
 import Loding from "../../Components/Loading/Loading";
 
-function Home(props)
+function Home()
 {
     const [data,setData] = useState([]) ;
     const [isloding,setLoding] = useState(true);
@@ -28,8 +28,6 @@ function Home(props)
             setLoding(false)
         })
     },[])
-
-
         if(isloding)
         {
             return <Loding />
@@ -37,12 +35,10 @@ function Home(props)
         else {
             return (
             <div>
-                {
-
-                }
                 <SliderShow/>
                 <div className="container mt-5 contant">
                     <h2 className="title">News</h2>
+
                     <div className="row ml">
                         {
                             data.map((item, i) => {

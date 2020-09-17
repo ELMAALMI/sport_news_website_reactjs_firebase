@@ -1,14 +1,15 @@
 import React  from "react";
-import Loading from "../../assets/loading.svg";
 import './Loading.css';
 function Loding (props)
 {
+    const style = {
+        width  : props.taille  ? props.taille   : "3rem",
+        height : props.taille  ? props.taille   : "3rem"
+    }
     return(
-        <div className={props.full ? 'fullscreen loading_out' : "fullscreen"}>
-            <div className="container mt-12">
-                <img src={Loading} alt="loading"
-                     className={props.full ? 'loading_image ml' : "loading_image ml-componant"}
-                />
+        <div className="text-center">
+            <div className={props.type ? "spinner-"+props.type : "spinner-grow"} style={style} role="status">
+                <span className="sr-only">Loading...</span>
             </div>
         </div>
 
