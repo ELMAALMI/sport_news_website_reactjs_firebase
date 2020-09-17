@@ -1,0 +1,69 @@
+@font-face {
+    font-family: "Ubuntu";
+    src: url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,700&display=swap");
+    /*<link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,700&display=swap" rel="stylesheet">*/
+}
+.single_live
+{
+    font-family: Ubuntu;
+}
+.single_live p,span {
+    font-size: 20px;
+}
+.top_page
+{
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    position: relative;
+    background-position: 50% 100%;
+    margin-bottom: 55px;
+}
+
+.live_date, .live_time{
+
+    background-color: #FFFFFF;
+    padding: 8px 84px;
+    border-radius:0 0 130px 130px;
+}
+.live_time
+{
+    border-radius: 130px 130px 0 0 ;
+
+}
+.Score1,.Score2
+{
+    font-size: 45px;
+}
+.two_point
+{
+    font-size: 64px !important;
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) { .live_date, .live_time{
+    padding: 8px 70px ;
+}}
+@media (max-width: 360px) and (min-width: 388px) {
+    .live_date, .live_time{
+        padding: 8px 70px ;
+    }
+}
+@media (max-width: 360px)
+{
+    .live_date, .live_time{
+        padding: 8px 70px ;
+    }
+}
+
+@media (max-width: 320px)
+{
+    .live_date, .live_time{
+        padding: 8px 60px ;
+    }
+}
+iframe {
+    width: 100%;
+    height: 531px;
+}

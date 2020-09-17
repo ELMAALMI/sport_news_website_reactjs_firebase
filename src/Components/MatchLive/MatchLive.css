@@ -1,0 +1,89 @@
+.HMatch1 {
+    float: right;
+    width: 100%;
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid #b5aeae;
+    border-radius: 10px;
+}
+.HMatchTeam
+{
+    float: right;
+    margin: 10px 0px;
+    text-align: center;
+}
+fieldset,.HMatchTeam img {
+    border: 0;
+}
+.HMatchTeam p {
+    overflow: hidden;
+}
+.HMatchInfo {
+    float: right;
+    width: 26%;
+    position: relative;
+}
+.HMatchInfo span:first-of-type {
+    right: -12px;
+    text-align: right;
+    display: block;
+    position: absolute;
+    top: 20px;
+    z-index: 1;
+}
+.HMatchInfo span:last-of-type {
+    left: -12px;
+    text-align: left;
+    display: block;
+    position: absolute;
+    top: 20px;
+    z-index: 1;
+}
+.HMatchInfo p {
+    width: 100%;
+    text-align: center;
+    margin-top: 5px;
+    position: relative;
+}
+.HmatchesIcons {
+    text-align: center;
+    position: absolute;
+    z-index: 2;
+    margin: auto;
+    left: 0;
+    right: 0;
+}
+.HmatchesIcons a {
+    width: auto;
+}
+.HmatchesIcons a img {
+    cursor: pointer;
+}
+.HMatchTeam {
+    float: right;
+    width: 37%;
+    margin: 10px 0px;
+    text-align: center;
+}
+fieldset, img {
+    border: 0;
+}
+
+
+.HMatchTeam p {
+    overflow: hidden;
+}
+fieldset,.HMatchTeam img {
+    border: 0;
+    width: 50px;
+}
+.HmatchesIcons img
+{
+    width: 50px;
+}
+.HmatchesIcons:hover {
+    background-color: #84c4fa;
+    width: 100px;
+    transition: 0.2ms;
+    border-radius: 10px;
+}
